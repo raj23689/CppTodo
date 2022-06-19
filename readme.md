@@ -29,7 +29,7 @@ You will need a c++ compiler like ``clangd`` or ``gcc``.
 1. Clone the repo and compile
 ```sh
 git clone https://github.com/raj23689/CppTodo.git
-cd src
+cd CppTodo && cd src
 g++ main.cpp -o todo
 ```
 2. Move the file into a directory which is included in your PATH [ONLY FOR LINUX] 
