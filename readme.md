@@ -7,6 +7,20 @@ This was a single man(small) project that I had to do back in my 10th class at s
 
 ## Getting Started
 
+```sh
+  src/
+ │  ├──  main.cpp
+ │  ├──  vars.h
+ │  ├──  todo.h
+ │  ├──  utils.h
+ │  ├──  date.h
+ │  └──  TodoList.h
+ ├──  .gitattributes
+ ├──  .gitignore
+ ├──  LICENSE
+ └──  readme.md
+
+```
 ### Prerequisites
 You will need a c++ compiler like ``clangd`` or ``gcc``.
 
