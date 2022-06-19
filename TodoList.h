@@ -1,15 +1,15 @@
 #pragma once
+#include "todo.h"
+#include "utils.h"
 #include <fstream>
 #include <iostream>
 #include <sstream>
 #include <vector>
-#include "todo.h"
-#include "utils.h"
 
 class TodoList {
 public:
   std::vector<Todo> todos;
-  TodoList(){}
+  TodoList() {}
   // TodoList(TodoList &&) = default;
   // TodoList(const TodoList &) = default;
   // TodoList &operator=(TodoList &&) = default;
@@ -112,7 +112,7 @@ void TodoList::writeToFile() {
 }
 
 void TodoList::printTodos() {
-  std::cout << "DeadLine        Tasks\n\n";
+  std::cout << "DeadLine        Todos\n\n";
   for (int i = 0; i < todos.size(); i++) {
 
     std::string sep = "";
