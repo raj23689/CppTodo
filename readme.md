@@ -1,4 +1,4 @@
-# Task List
+# Todo List
 This is a small CLI program to manage a todo.txt
 
 ## About The Project
