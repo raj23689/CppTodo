@@ -23,12 +23,15 @@ g++ main.cpp -o todo
 mkdir -p ~/.local/bin
 mv todo ~/.local/bin
 ```
+** For Windows just compile the program and use it.
 
 ## Usage
 You can pass commands for example like this without entering the program
 ```
 todo -a example task due jul 12.
 todo -r example task
+
+todo -a ex -d 06/16
 ```
 You can list tasks without entering the program
 ```
