@@ -5,6 +5,20 @@ This is a small CLI program to manage a todo.txt
 
 This was a single man(small) project that I had to do back in my 10th class at school.
 
+
+## Project Structure
+  src/
+ │  ├──  main.cpp
+ │  ├──  vars.h
+ │  ├──  todo.h
+ │  ├──  utils.h
+ │  ├──  date.h
+ │  └──  TodoList.h
+ ├──  .gitattributes
+ ├──  .gitignore
+ ├──  LICENSE
+ └──  readme.md
+
 ## Getting Started
 
 ### Prerequisites
