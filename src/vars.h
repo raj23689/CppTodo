@@ -4,7 +4,7 @@
 
 #define FILELOCATION "/Documents/todo.txt" // at ~/
 #define LINESEPARATOR "and"
-#define PRINTSERIAL true // print serial number before task description
+#define PRINTSERIAL true // print serial number before todo description
 
 struct nameValue {
   std::string str;
